@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home{
+    background-image: url('https://jetinternational.com/wp-content/uploads/2016/11/iStock-177708665-5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.list {
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 600;
+    color: mediumblue;
+}
+.h1-d1{
+    height: 700px;
+    /* font-size: 80px; */
+    
+}
+.h1-s{
+    font-size: 80px;
+}
+.btn1{
+    padding: 8px;
+    border-radius:50px;
+    color: aliceblue;
+    background-color: blue;
+}
+
+
+.images{
+margin-top: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+.hd3{
+    font-family: "Playwrite CU", cursive;
+    color: blue;
+}
+.parent{
+    background-color: midnightblue;
+}
+.af{
+    color: white;
+}
+.icn{
+    color: white;
+    font-size: 30px;
+}
+.prt{
+    background-color: midnightblue;
+}
+.s2{
+    font-family: "Playwrite CU", cursive;
+
+}
+.grey{
+    background-color: #f1eeee;
+}
+.btn3{
+    margin-top: 600px;
+
+}
+.btn1:hover{
+background-color: red;
+}
+
+.imag1{
+    background-image: url('https://www.worldatlas.com/r/w1200-q80/upload/cf/3a/90/shutterstock-1400154155.jpg');
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+}
+.imag2{
+    background-image: url('https://www.treebo.com/blog/wp-content/uploads/2018/02/Kashmir.jpg');
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+}
+.imag3{
+    background-image: url('https://assets-news.housing.com/news/wp-content/uploads/2022/08/21154510/PUNJAB-FEATURE-compressed-686x400.jpg');
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+}
+.imag4{
+    background-image: url('https://s4.scoopwhoop.com/anj/asde/338609151.jpg');
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+}
+.middle{
+    display: none;
+    height: 350px;
+    width: 300px;
+    background-color:rgba(0, 255, 255, 0.61);
+
+}
+
+
+.top:hover .middle{
+    display: block;
+    border-radius: 5px;
+
+}
+
+
+.grid-cont {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+.grid-item1{
+    grid-column:span 3;
+    grid-row: span 3;
+}
+.grid-item2{
+    grid-column:span 3;
+    grid-row: span 2;
+}
+.grid-item3{
+    grid-column:1/span 2;
+    grid-row: 4/span 3;
+}
+.grid-item4{
+    grid-column:span 3;
+    grid-row: span 3;
+}
+.cardd:hover{
+    box-shadow: 2px 2px 3px 4px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.section2
+{
+    background-color:rgb(230, 229, 229) ;
+}
+@media(max-width:768px){
+    .videoo{
+       width: 400px;
+       height:200px ;
+    }
+}
+
